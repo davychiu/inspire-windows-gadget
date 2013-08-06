@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<gadget>
+  <name>Inspire</name>
+  <namespace><!--_locComment_text="{Locked}"-->microsoft.windows</namespace>
+  <version><!--_locComment_text="{Locked}"-->1.0.0.0</version>
+  <author name="Davy Chiu">
+      <info url="http://www.davychiu.com" text="www.davychiu.com"/>
+      <logo src="logo.png"/>
+  </author>
+  <copyright><!--_locComment_text="{Locked}"-->© 2011</copyright>
+  <description>Displays a motivating word or message.</description>
+  <icons>
+    <icon height="48" width="48" src="icon.png"/>
+  </icons>
+  <hosts>
+    <host name="sidebar">
+      <autoscaleDPI><!--_locComment_text="{Locked}"-->true</autoscaleDPI>
+      <base type="html" apiVersion="1.0.0" src="inspire.html"/>
+      <permissions><!--_locComment_text="{Locked}"-->full</permissions>
+      <platform minPlatformVersion="1.0"/>
+      <defaultImage src="icon.png"/>
+    </host>
+  </hosts>
+</gadget>
